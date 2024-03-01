@@ -1,0 +1,40 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 35px;
+  column-gap: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+.countryCard {
+  width: 300px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1%;
+}
+
+.countryCard img {
+  width: 250px;
+  height: 100px;
+}
+
+.navbar {
+  width: 100%;
+  border-bottom: 1px solid gray;
+  margin: 0;
+  padding: 1%;
+}
+
+.navbar input {
+  width: 600px;
+}
